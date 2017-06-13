@@ -1,0 +1,161 @@
+.content{
+	width:55%;
+	margin:auto;
+}
+
+.content .header{
+	padding-bottom:50px !important;
+}
+
+.header-dashboard{
+	width:100% !important;
+	height:100% !important;
+	background-color:#29b37e !important;
+	color:#fff !important;
+}
+
+.content-dashboard{
+	width:100% !important;
+	//height:35% !important;
+	background-color:#fff !important;
+}
+
+.button{
+	margin:20px auto !important;
+	text-align:center !important;
+}
+
+#loader{
+	display:none;
+}
+
+.button .circle-style{
+	border:1px solid #29b37e;
+	padding:15px 18px;
+	background:#29b37e;
+	border-radius:100%;
+	cursor:pointer;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08);
+}
+
+.button .circle-style i{
+	color:#fff;
+}
+
+.form-input{
+	width:100% !important;
+	padding:3px 0px !important;
+	margin:15px 0px !important;
+	border:none !important;
+	border-bottom:1px solid #e1e1e1 !important;
+	outline:none !important;
+}
+
+.quiksand-upper-regular{
+	font-family:'Quicksand-Regular' !important;
+	text-transform:uppercase;
+	font-size:12px !important;
+}
+
+.center{
+	text-align:center;
+	margin:10px auto;
+}
+
+.color-white{
+	color:#fff !important;
+}
+
+.color-green{
+	color:#8dc43f !important;
+}
+
+.row{
+	width:100% !important;
+}
+
+.row .box-flat{
+	width:100% !important;
+	margin:2% 0px !important;
+	background-color:#fff !important;
+	border-bottom:1px solid #f1f1f1 !important;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+    display: block !important;
+}
+
+.nav{
+	background-color:#fff;
+	color:#555;
+	position:absolute;
+	top:45px;
+	z-index:9999;
+	width:55%;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08);
+	display:none;
+	border-radius:3px;
+}
+
+.nav ul{
+	list-style:none;
+	padding:0;
+	width:200px;
+}
+
+.nav ul li{
+	width:100%;
+}
+
+.nav ul li{
+	padding:15px;
+}
+
+.table-header{
+	font-family:'Quicksand-Bold';
+}
+
+.jarak-10{
+	margin-top:0%;
+	margin-bottom:0%;
+}
+
+@media (max-width: 900px) {
+	.content{
+		width:60%;
+	}
+}
+
+@media (min-width:900px){
+	.jarak-10{
+		margin-top:5%;
+	}
+}
+
+@media (max-width: 600px) {
+	.content{
+		width:90%;
+	}
+	
+	.nav{	
+		right:2%;
+	}
+}
+
+
+@media (max-height: 550px) {
+	.header-dashboard{
+		min-height:100%;
+		height:auto !important;
+	}
+}
+
+@media (max-height: 425px) {
+	.jarak-10{
+		margin-top:5%;
+	}
+}

@@ -1,0 +1,24 @@
+@font-face{
+	font-family:Quicksand-Light;
+	font-weight:700;
+	src:url("../../assets/fonts/Quicksand-Light.ttf");
+}
+
+@font-face{
+	font-family:Quicksand-Regular;
+	font-weight:700;
+	src:url("../../assets/fonts/Quicksand-Regular.ttf");
+}
+
+@font-face{
+	font-family:Quicksand-Bold;
+	font-weight:700;
+	src:url("../../assets/fonts/Quicksand-Bold.ttf");
+}
+
+
+@font-face{
+	font-family:Lato-Regular;
+	font-weight:700;
+	src:url("../../assets/fonts/Lato-Regular.ttf");
+}
